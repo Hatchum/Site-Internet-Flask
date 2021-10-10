@@ -1,13 +1,10 @@
-<!-- app/templates/user.html -->
+{# app/templates/user.html #}
 
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>User {{ name }}</title>
-    </head>
-    <body>
+{% extends 'base.html' %}
+
+{% block title %}User {{ name }}{% endblock %}
+
+{% block content %}
         <h1>User Page</h1>
         <p>Bonjour {{ name|capitalize }} !</p>
-    </body>
-</html>
+{% endblock %}
