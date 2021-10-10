@@ -5,6 +5,7 @@ python3 -m venv env
 
 # Installation des dépendances
 pip install Flask
+pip install python-dotenv
 
 # Activation de l'environnement env
 env\Scripts\activate
