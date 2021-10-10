@@ -1,6 +1,7 @@
 # app/routes.py
 
-from app import app, request, render_template
+from flask import request, render_template
+from app import app
 
 
 @app.route('/', methods=['GET'])
