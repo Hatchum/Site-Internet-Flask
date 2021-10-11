@@ -4,6 +4,7 @@ from flask import Flask, request, render_template
 # import socket
 
 
+# our sexy awsome fucking website creation entry function
 def create_app():
     app = Flask(__name__)
 
