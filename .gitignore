@@ -2,3 +2,4 @@ env/
 .idea/
 migrations/
 node_modules/
+.flaskenv
